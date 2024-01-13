@@ -7,15 +7,6 @@ The program will be able to run in verbose mode or regular mode.  When running i
 
 During execution of your program, any files encountered that are not readable will have their full path printed to an error file.  The name of this error file and the mode your program is running in (verbose mode or regular mode) will be determined based on a configuration file called "config.txt" (see more in the Input section).
 
-## Assignment Submission
-You will submit your assignment using GitHub Classroom.  When you are finished and want to make your final submission, use the checkin comment "FINAL SUBMISSION":
-
-        git add .
-        git commit -m "FINAL SUBMISSION"
-        git push origin main
-
-Any submission not having this comment will be assumed to be a work-in-progress and therefore will be ignored.  This implies that you must make your final push with this commit comment before the deadline.
-
 ## Input
 The configuration file is called "config.txt" and contains 2 parameters specfied on separate space-delimited lines.  Your program should read the file token-by-token with the first token on each line being the name of the parameter and the second being the value.  For example, the following "config.txt" contents indicate that the error messages should be stored in a file called "errors.txt" and the program should run in verbose mode:
 
