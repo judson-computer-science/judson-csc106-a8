@@ -1,0 +1,2 @@
+logFile errors.txt
+verboseMode true
